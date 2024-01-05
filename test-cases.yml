@@ -224,3 +224,89 @@
     - 
   expected-result: |
     
+---
+- summary: |
+    Проверка кнопки "Create a game" 
+  requirement: |
+    Пользователь должен иметь возможность создать новую игру 
+  prerequisites: |
+    Открыта основная страница сайта  
+  test-data: |
+    No data
+  steps:
+    - Нажать на кнопку "Create a game"
+  expected-result: |
+    Открывается окно с параметрами создания игры 
+
+---
+- summary: |
+    Возможности выбора уровня сложности при создании новой игры 
+  requirement: |
+    Пользователь должен иметь возможность выбора параметров игры (уровень сложности, тип игры, время для игры, выбор игры по названию и тематике)
+  prerequisites: |
+    Открыто окно создания игры 
+  test-data: |
+    Game Type: with a bot
+    Time control: 8 min
+    Choose task by name: random task
+    Tags: no data
+  steps:
+    - В разделе Level выбрать уровень сложности - 1 звезда (elementary)
+    - Нажать на кнопку "Create battle"
+  expected-result: |
+    Открывается страница игры, игра начата     
+
+    ---
+- summary: |
+    Возможности выбора типа игры 
+  requirement: |
+    Пользователь должен иметь возможность выбора параметров игры (уровень сложности, тип игры, время для игры, выбор игры по названию и тематике)
+  prerequisites: |
+    Открыто окно создания игры 
+  test-data: |
+    Level: 1 звезда (elementary)
+    Time control: 8 min
+    Choose task by name: random task
+    Tags: no data
+  steps:
+    - В разделе  Game Type выбрать "with a bot"
+    - Нажать на кнопку "Create battle"
+  expected-result: |
+    Открывается страница игры, игра начата
+
+---
+- summary: |
+    Возможности выбора типа игры 
+  requirement: |
+    Пользователь должен иметь возможность выбора параметров игры (уровень сложности, тип игры, время для игры, выбор игры по названию и тематике)
+  prerequisites: |
+    Открыто окно создания игры 
+  test-data: |
+    Level: 1 звезда (elementary)
+    Time control: 8 min
+    Choose task by name: random task
+    Tags: no data
+  steps:
+    - В разделе  Game Type выбрать "With a friend"
+    - Выбрать в появившемся выпадающем списке (Choose opponent) соперника  
+    - Нажать на кнопку "Create battle"
+  expected-result: |
+    Открывается основная страница сайта, на верней панели в разделе приглашений указана +1 игра. После принятия соперником игры.....
+
+---
+- summary: |
+    Возможности выбора типа игры 
+  requirement: |
+    Пользователь должен иметь возможность выбора параметров игры (уровень сложности, тип игры, время для игры, выбор игры по названию и тематике)
+  prerequisites: |
+    Открыто окно создания игры 
+  test-data: |
+    Level: 1 звезда (elementary)
+    Time control: 8 min
+    Choose task by name: random task
+    Tags: no data
+  steps:
+    - В разделе  Game Type выбрать "With other users"  
+    - Нажать на кнопку "Create battle"
+  expected-result: |
+    Открывается основная страница сайта,........
