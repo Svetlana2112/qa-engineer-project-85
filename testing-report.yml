@@ -1,0 +1,189 @@
+---
+- summary: |
+    Регистрация нового пользователя
+  status: pass
+
+- summary: |
+    Регистрация нового пользователя (с несуществующими данными)
+  status: pass
+
+- summary: |
+    Регистрация нового пользователя (с зарегистрированным Email)
+  status: pass
+
+- summary: |
+    Регистрация нового пользователя (с зарегистрированным nickname)
+  status: pass
+
+- summary: |
+    Вход в систему
+  status: pass
+
+- summary: |
+    Вход в систему (несуществующий Email)
+  status: pass
+
+- summary: |
+    Вход в систему (незарегистрированный Email)
+  status: pass
+
+- summary: |
+    Вход в систему (неверный пароль)
+  status: pass
+
+- summary: |
+    Возможность восстановления пароля
+  status: pass
+
+- summary: |
+    Вход в систему (через GitHub)
+  status: pass
+
+- summary: |
+    Вход в систему (через Discord)
+  status: pass
+
+- summary: |
+    Проверка возможности игры без авторизации
+  status: pass
+
+- summary: |
+    Проверка кнопки "Create a game"
+  status: pass
+
+- summary: |
+    Возможность выбора уровня сложности при создании новой игры
+  status: fail
+
+- summary: |
+    Возможность выбора типа игры (игра с ботом)
+  status: pass
+
+- summary: |
+    Возможность выбора типа игры (игра с другом)
+  status: pass
+
+- summary: |
+    Возможность выбора типа игры (игра с другим пользователем)
+  status: pass
+
+- summary: |
+    Возможность установить время игры
+  status: pass
+
+- summary: |
+    Возможность выбора задачи по названию
+  status: pass
+
+- summary: |
+    Возможность сортировки задач по тегу/тегам
+  status: pass
+
+- summary: |
+    Досрочное завершения игры (сдаться)
+  status: pass
+
+- summary: |
+    Возможность отмены досрочного завершения игры (сдаться)
+  status: pass
+
+- summary: |
+    Возможность проверки кода
+  status: pass
+
+- summary: |
+    Возможность выполнить Rematch (с ботом)
+  status: pass
+
+- summary: |
+    Возможность отправлять сообщения в чате игры
+  status: pass
+
+- summary: |
+    Победа в игре
+  status: pass
+
+- summary: |
+    Победа в игре (соперник сдался)
+  status: pass
+
+- summary: |
+    Поражение в игре (окончание времени)
+  status: pass
+
+- summary: |
+    Возможность смены темы области ввода кода
+  status: pass
+
+- summary: |
+    Возможность перевода текста задания
+  status: pass
+
+- summary: |
+    Возможность сбросить редактор
+  status: pass
+
+- summary: |
+    Проверка работы области ввода кода
+  status: pass
+
+- summary: |
+    Проверка возможности смены языка программирования в игре
+  status: pass
+
+- summary: |
+    Проверка просмотра игры других пользователей
+  status: pass
+
+- summary: |
+    Возможность просмотра профиля пользователей сайта
+  status: pass
+
+- summary: |
+    Возможность отправки сообщений в чате лобби
+  status: pass
+
+- summary: |
+    Возможность начать игру с ботом или пользователем (LOBBY)
+  status: pass
+
+- summary: |
+    Возможность начать игру с пользователем, находящимся в сети
+  status: pass
+
+- summary: |
+    Возможность просмотра своего профиля
+  status: pass
+
+- summary: |
+    Открытие настроек на панели пользователя
+  status: pass
+
+- summary: |
+    Открытие рейтинга пользователей сайта 
+  status: pass
+
+- summary: |
+    Проверка выхода из аккаунта
+  status: pass
+
+- summary: |
+    Проверка создания турнира
+  status: pass
+
+- summary: |
+    Сохранение авторизации
+  status: pass
+
+- summary: |
+    Проверка адаптивности сайта
+  status: pass
+
+- summary: |
+    Проверка кроссбаузерности 
+  status: pass
+
+- summary: |
+    Проверка запросов и ответов на наличие ошибок
+  status: pass
+
